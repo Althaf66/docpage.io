@@ -1,0 +1,616 @@
+[
+  
+  {
+    "title": "harbor version",
+    "url": "/harbor/version",
+    "categories": "harbor, version",
+    "tags": "harbor, version",
+    "date": "2024-06-03 22:01:02 +0530",
+    
+
+
+
+
+
+    
+    "snippet": "harbor versionVersion of Harbor CLISynopsisGet Harbor CLI version, git commit, go version, build time, release channel, os/arch, etc.harbor version [flags]Examples  harbor versionOptions  -h, --hel...",
+    "content": "harbor versionVersion of Harbor CLISynopsisGet Harbor CLI version, git commit, go version, build time, release channel, os/arch, etc.harbor version [flags]Examples  harbor versionOptions  -h, --help   help for versionOptions inherited from parent commands      --config string          config file (default is $HOME/.harbor/config.yaml) (default \"/home/user/.harbor/config.yaml\")  -o, --output-format string   Output format. One of: json|yaml  -v, --verbose                verbose outputSEE ALSO  harbor\t - Official Harbor CLI"
+  },
+  
+  {
+    "title": "harbor user list",
+    "url": "/harbor/user/list",
+    "categories": "harbor, user, list",
+    "tags": "harbor, user, list",
+    "date": "2024-06-03 22:01:02 +0530",
+    
+
+
+
+
+
+    
+    "snippet": "harbor user listlist usersharbor user list [flags]Options  -h, --help   help for listOptions inherited from parent commands      --config string          config file (default is $HOME/.harbor/confi...",
+    "content": "harbor user listlist usersharbor user list [flags]Options  -h, --help   help for listOptions inherited from parent commands      --config string          config file (default is $HOME/.harbor/config.yaml) (default \"/home/user/.harbor/config.yaml\")  -o, --output-format string   Output format. One of: json|yaml  -v, --verbose                verbose outputSEE ALSO  harbor user\t - Manage users"
+  },
+  
+  {
+    "title": "harbor user elevate",
+    "url": "/harbor/user/elevate",
+    "categories": "harbor, user, elevate",
+    "tags": "harbor, user, elevate",
+    "date": "2024-06-03 22:01:02 +0530",
+    
+
+
+
+
+
+    
+    "snippet": "harbor user elevateelevate userSynopsiselevate user to admin roleharbor user elevate [flags]Options  -h, --help   help for elevateOptions inherited from parent commands      --config string        ...",
+    "content": "harbor user elevateelevate userSynopsiselevate user to admin roleharbor user elevate [flags]Options  -h, --help   help for elevateOptions inherited from parent commands      --config string          config file (default is $HOME/.harbor/config.yaml) (default \"/home/user/.harbor/config.yaml\")  -o, --output-format string   Output format. One of: json|yaml  -v, --verbose                verbose outputSEE ALSO  harbor user\t - Manage users"
+  },
+  
+  {
+    "title": "harbor user delete",
+    "url": "/harbor/user/delete",
+    "categories": "harbor, user, delete",
+    "tags": "harbor, user, delete",
+    "date": "2024-06-03 22:01:02 +0530",
+    
+
+
+
+
+
+    
+    "snippet": "harbor user deletedelete userharbor user delete [flags]Options  -h, --help   help for deleteOptions inherited from parent commands      --config string          config file (default is $HOME/.harbo...",
+    "content": "harbor user deletedelete userharbor user delete [flags]Options  -h, --help   help for deleteOptions inherited from parent commands      --config string          config file (default is $HOME/.harbor/config.yaml) (default \"/home/user/.harbor/config.yaml\")  -o, --output-format string   Output format. One of: json|yaml  -v, --verbose                verbose outputSEE ALSO  harbor user\t - Manage users"
+  },
+  
+  {
+    "title": "harbor user create",
+    "url": "/harbor/user/create",
+    "categories": "harbor, user, create",
+    "tags": "harbor, user, create",
+    "date": "2024-06-03 22:01:02 +0530",
+    
+
+
+
+
+
+    
+    "snippet": "harbor user createcreate userharbor user create [flags]Options      --comment string    Comment      --email string      Email  -h, --help              help for create      --password string   Pass...",
+    "content": "harbor user createcreate userharbor user create [flags]Options      --comment string    Comment      --email string      Email  -h, --help              help for create      --password string   Password      --realname string   Realname      --username string   UsernameOptions inherited from parent commands      --config string          config file (default is $HOME/.harbor/config.yaml) (default \"/home/user/.harbor/config.yaml\")  -o, --output-format string   Output format. One of: json|yaml  -v, --verbose                verbose outputSEE ALSO  harbor user\t - Manage users"
+  },
+  
+  {
+    "title": "harbor user",
+    "url": "/harbor/user",
+    "categories": "harbor, user",
+    "tags": "harbor, user",
+    "date": "2024-06-03 22:01:02 +0530",
+    
+
+
+
+
+
+    
+    "snippet": "harbor userManage usersSynopsisManage users in HarborExamples  harbor user listOptions  -h, --help   help for userOptions inherited from parent commands      --config string          config file (d...",
+    "content": "harbor userManage usersSynopsisManage users in HarborExamples  harbor user listOptions  -h, --help   help for userOptions inherited from parent commands      --config string          config file (default is $HOME/.harbor/config.yaml) (default \"/home/user/.harbor/config.yaml\")  -o, --output-format string   Output format. One of: json|yaml  -v, --verbose                verbose outputSEE ALSO  harbor\t - Official Harbor CLI  harbor user create\t - create user  harbor user delete\t - delete user  harbor user elevate\t - elevate user  harbor user list\t - list users"
+  },
+  
+  {
+    "title": "harbor repo list",
+    "url": "/harbor/repo/list",
+    "categories": "harbor, repo, list",
+    "tags": "harbor, repo, list",
+    "date": "2024-06-03 22:01:02 +0530",
+    
+
+
+
+
+
+    
+    "snippet": "harbor repo listlist repositories within a projectharbor repo list [flags]Options  -h, --help   help for listOptions inherited from parent commands      --config string          config file (defaul...",
+    "content": "harbor repo listlist repositories within a projectharbor repo list [flags]Options  -h, --help   help for listOptions inherited from parent commands      --config string          config file (default is $HOME/.harbor/config.yaml) (default \"/home/user/.harbor/config.yaml\")  -o, --output-format string   Output format. One of: json|yaml  -v, --verbose                verbose outputSEE ALSO  harbor repo\t - Manage repositories"
+  },
+  
+  {
+    "title": "harbor repo info",
+    "url": "/harbor/repo/info",
+    "categories": "harbor, repo, info",
+    "tags": "harbor, repo, info",
+    "date": "2024-06-03 22:01:02 +0530",
+    
+
+
+
+
+
+    
+    "snippet": "harbor repo infoGet repository informationSynopsisGet information of a particular repository in a projectharbor repo info [flags]Examples  harbor repo info &lt;project_name&gt;/&lt;repo_name&gt;Opt...",
+    "content": "harbor repo infoGet repository informationSynopsisGet information of a particular repository in a projectharbor repo info [flags]Examples  harbor repo info &lt;project_name&gt;/&lt;repo_name&gt;Options  -h, --help   help for infoOptions inherited from parent commands      --config string          config file (default is $HOME/.harbor/config.yaml) (default \"/home/user/.harbor/config.yaml\")  -o, --output-format string   Output format. One of: json|yaml  -v, --verbose                verbose outputSEE ALSO  harbor repo\t - Manage repositories"
+  },
+  
+  {
+    "title": "harbor repo delete",
+    "url": "/harbor/repo/delete",
+    "categories": "harbor, repo, delete",
+    "tags": "harbor, repo, delete",
+    "date": "2024-06-03 22:01:02 +0530",
+    
+
+
+
+
+
+    
+    "snippet": "harbor repo deleteDelete a repositorySynopsisDelete a repository within a project in Harborharbor repo delete [flags]Examples  harbor repository delete [project_name]/[repository_name]Options  -h, ...",
+    "content": "harbor repo deleteDelete a repositorySynopsisDelete a repository within a project in Harborharbor repo delete [flags]Examples  harbor repository delete [project_name]/[repository_name]Options  -h, --help   help for deleteOptions inherited from parent commands      --config string          config file (default is $HOME/.harbor/config.yaml) (default \"/home/user/.harbor/config.yaml\")  -o, --output-format string   Output format. One of: json|yaml  -v, --verbose                verbose outputSEE ALSO  harbor repo\t - Manage repositories"
+  },
+  
+  {
+    "title": "harbor repo",
+    "url": "/harbor/repo",
+    "categories": "harbor, repo",
+    "tags": "harbor, repo",
+    "date": "2024-06-03 22:01:02 +0530",
+    
+
+
+
+
+
+    
+    "snippet": "harbor repoManage repositoriesSynopsisManage repositories in Harbor contextOptions  -h, --help   help for repoOptions inherited from parent commands      --config string          config file (defau...",
+    "content": "harbor repoManage repositoriesSynopsisManage repositories in Harbor contextOptions  -h, --help   help for repoOptions inherited from parent commands      --config string          config file (default is $HOME/.harbor/config.yaml) (default \"/home/user/.harbor/config.yaml\")  -o, --output-format string   Output format. One of: json|yaml  -v, --verbose                verbose outputSEE ALSO  harbor\t - Official Harbor CLI  harbor repo delete\t - Delete a repository  harbor repo info\t - Get repository information  harbor repo list\t - list repositories within a project"
+  },
+  
+  {
+    "title": "harbor registry view",
+    "url": "/harbor/registry/view",
+    "categories": "harbor, registry, view",
+    "tags": "harbor, registry, view",
+    "date": "2024-06-03 22:01:02 +0530",
+    
+
+
+
+
+
+    
+    "snippet": "harbor registry viewget registry by idharbor registry view [flags]Options  -h, --help   help for viewOptions inherited from parent commands      --config string          config file (default is $HO...",
+    "content": "harbor registry viewget registry by idharbor registry view [flags]Options  -h, --help   help for viewOptions inherited from parent commands      --config string          config file (default is $HOME/.harbor/config.yaml) (default \"/home/user/.harbor/config.yaml\")  -o, --output-format string   Output format. One of: json|yaml  -v, --verbose                verbose outputSEE ALSO  harbor registry\t - Manage registries"
+  },
+  
+  {
+    "title": "harbor registry update",
+    "url": "/harbor/registry/update",
+    "categories": "harbor, registry, update",
+    "tags": "harbor, registry, update",
+    "date": "2024-06-03 22:01:02 +0530",
+    
+
+
+
+
+
+    
+    "snippet": "harbor registry updateupdate registryharbor registry update [flags]Options      --credential-access-key string      Access key, e.g. user name when credential type is 'basic'      --credential-acce...",
+    "content": "harbor registry updateupdate registryharbor registry update [flags]Options      --credential-access-key string      Access key, e.g. user name when credential type is 'basic'      --credential-access-secret string   Access secret, e.g. password when credential type is 'basic'      --credential-type string            Credential type, such as 'basic', 'oauth'      --description string                Description of the registry  -h, --help                              help for update      --insecure                          Whether or not the certificate will be verified when Harbor tries to access the server (default true)      --name string                       Name of the registry      --type string                       Type of the registry      --url string                        Registry endpoint URLOptions inherited from parent commands      --config string          config file (default is $HOME/.harbor/config.yaml) (default \"/home/user/.harbor/config.yaml\")  -o, --output-format string   Output format. One of: json|yaml  -v, --verbose                verbose outputSEE ALSO  harbor registry\t - Manage registries"
+  },
+  
+  {
+    "title": "harbor registry list",
+    "url": "/harbor/registry/list",
+    "categories": "harbor, registry, list",
+    "tags": "harbor, registry, list",
+    "date": "2024-06-03 22:01:02 +0530",
+    
+
+
+
+
+
+    
+    "snippet": "harbor registry listlist registryharbor registry list [flags]Options  -h, --help            help for list      --page int        Page number (default 1)      --page-size int   Size of per page (def...",
+    "content": "harbor registry listlist registryharbor registry list [flags]Options  -h, --help            help for list      --page int        Page number (default 1)      --page-size int   Size of per page (default 10)  -q, --query string    Query string to query resources      --sort string     Sort the resource list in ascending or descending orderOptions inherited from parent commands      --config string          config file (default is $HOME/.harbor/config.yaml) (default \"/home/user/.harbor/config.yaml\")  -o, --output-format string   Output format. One of: json|yaml  -v, --verbose                verbose outputSEE ALSO  harbor registry\t - Manage registries"
+  },
+  
+  {
+    "title": "harbor registry info",
+    "url": "/harbor/registry/info",
+    "categories": "harbor, registry, info",
+    "tags": "harbor, registry, info",
+    "date": "2024-06-03 22:01:02 +0530",
+    
+
+
+
+
+
+    
+    "snippet": "harbor registry infoget registry infoharbor registry info [flags]Options  -h, --help   help for infoOptions inherited from parent commands      --config string          config file (default is $HOM...",
+    "content": "harbor registry infoget registry infoharbor registry info [flags]Options  -h, --help   help for infoOptions inherited from parent commands      --config string          config file (default is $HOME/.harbor/config.yaml) (default \"/home/user/.harbor/config.yaml\")  -o, --output-format string   Output format. One of: json|yaml  -v, --verbose                verbose outputSEE ALSO  harbor registry\t - Manage registries"
+  },
+  
+  {
+    "title": "harbor registry delete",
+    "url": "/harbor/registry/delete",
+    "categories": "harbor, registry, delete",
+    "tags": "harbor, registry, delete",
+    "date": "2024-06-03 22:01:02 +0530",
+    
+
+
+
+
+
+    
+    "snippet": "harbor registry deletedelete registry by idharbor registry delete [flags]Options  -h, --help   help for deleteOptions inherited from parent commands      --config string          config file (defau...",
+    "content": "harbor registry deletedelete registry by idharbor registry delete [flags]Options  -h, --help   help for deleteOptions inherited from parent commands      --config string          config file (default is $HOME/.harbor/config.yaml) (default \"/home/user/.harbor/config.yaml\")  -o, --output-format string   Output format. One of: json|yaml  -v, --verbose                verbose outputSEE ALSO  harbor registry\t - Manage registries"
+  },
+  
+  {
+    "title": "harbor registry create",
+    "url": "/harbor/registry/create",
+    "categories": "harbor, registry, create",
+    "tags": "harbor, registry, create",
+    "date": "2024-06-03 22:01:02 +0530",
+    
+
+
+
+
+
+    
+    "snippet": "harbor registry createcreate registryharbor registry create [flags]Options      --credential-access-key string      Access key, e.g. user name when credential type is 'basic'      --credential-acce...",
+    "content": "harbor registry createcreate registryharbor registry create [flags]Options      --credential-access-key string      Access key, e.g. user name when credential type is 'basic'      --credential-access-secret string   Access secret, e.g. password when credential type is 'basic'      --credential-type string            Credential type, such as 'basic', 'oauth' (default \"basic\")      --description string                Description of the registry  -h, --help                              help for create      --insecure                          Whether or not the certificate will be verified when Harbor tries to access the server (default true)      --name string                       Name of the registry      --type string                       Type of the registry (default \"harbor\")      --url string                        Registry endpoint URLOptions inherited from parent commands      --config string          config file (default is $HOME/.harbor/config.yaml) (default \"/home/user/.harbor/config.yaml\")  -o, --output-format string   Output format. One of: json|yaml  -v, --verbose                verbose outputSEE ALSO  harbor registry\t - Manage registries"
+  },
+  
+  {
+    "title": "harbor registry",
+    "url": "/harbor/registry",
+    "categories": "harbor, registry",
+    "tags": "harbor, registry",
+    "date": "2024-06-03 22:01:02 +0530",
+    
+
+
+
+
+
+    
+    "snippet": "harbor registryManage registriesSynopsisManage registries in HarborExamples  harbor registry listOptions  -h, --help   help for registryOptions inherited from parent commands      --config string  ...",
+    "content": "harbor registryManage registriesSynopsisManage registries in HarborExamples  harbor registry listOptions  -h, --help   help for registryOptions inherited from parent commands      --config string          config file (default is $HOME/.harbor/config.yaml) (default \"/home/user/.harbor/config.yaml\")  -o, --output-format string   Output format. One of: json|yaml  -v, --verbose                verbose outputSEE ALSO  harbor\t - Official Harbor CLI  harbor registry create\t - create registry  harbor registry delete\t - delete registry by id  harbor registry info\t - get registry info  harbor registry list\t - list registry  harbor registry update\t - update registry  harbor registry view\t - get registry by id"
+  },
+  
+  {
+    "title": "harbor project view",
+    "url": "/harbor/project/view",
+    "categories": "harbor, project, view",
+    "tags": "harbor, project, view",
+    "date": "2024-06-03 22:01:02 +0530",
+    
+
+
+
+
+
+    
+    "snippet": "harbor project viewget project by name or idharbor project view [NAME|ID] [flags]Options  -h, --help   help for viewOptions inherited from parent commands      --config string          config file ...",
+    "content": "harbor project viewget project by name or idharbor project view [NAME|ID] [flags]Options  -h, --help   help for viewOptions inherited from parent commands      --config string          config file (default is $HOME/.harbor/config.yaml) (default \"/home/user/.harbor/config.yaml\")  -o, --output-format string   Output format. One of: json|yaml  -v, --verbose                verbose outputSEE ALSO  harbor project\t - Manage projects and assign resources to them"
+  },
+  
+  {
+    "title": "harbor project logs",
+    "url": "/harbor/project/logs",
+    "categories": "harbor, project, logs",
+    "tags": "harbor, project, logs",
+    "date": "2024-06-03 22:01:02 +0530",
+    
+
+
+
+
+
+    
+    "snippet": "harbor project logsget project logsharbor project logs [flags]Options  -h, --help   help for logsOptions inherited from parent commands      --config string          config file (default is $HOME/....",
+    "content": "harbor project logsget project logsharbor project logs [flags]Options  -h, --help   help for logsOptions inherited from parent commands      --config string          config file (default is $HOME/.harbor/config.yaml) (default \"/home/user/.harbor/config.yaml\")  -o, --output-format string   Output format. One of: json|yaml  -v, --verbose                verbose outputSEE ALSO  harbor project\t - Manage projects and assign resources to them"
+  },
+  
+  {
+    "title": "harbor project list",
+    "url": "/harbor/project/list",
+    "categories": "harbor, project, list",
+    "tags": "harbor, project, list",
+    "date": "2024-06-03 22:01:02 +0530",
+    
+
+
+
+
+
+    
+    "snippet": "harbor project listlist projectharbor project list [flags]Options  -h, --help            help for list      --name string     Name of the project      --page int        Page number (default 1)     ...",
+    "content": "harbor project listlist projectharbor project list [flags]Options  -h, --help            help for list      --name string     Name of the project      --page int        Page number (default 1)      --page-size int   Size of per page (default 10)      --public          Project is public or private  -q, --query string    Query string to query resources      --sort string     Sort the resource list in ascending or descending orderOptions inherited from parent commands      --config string          config file (default is $HOME/.harbor/config.yaml) (default \"/home/user/.harbor/config.yaml\")  -o, --output-format string   Output format. One of: json|yaml  -v, --verbose                verbose outputSEE ALSO  harbor project\t - Manage projects and assign resources to them"
+  },
+  
+  {
+    "title": "harbor project delete",
+    "url": "/harbor/project/delete",
+    "categories": "harbor, project, delete",
+    "tags": "harbor, project, delete",
+    "date": "2024-06-03 22:01:02 +0530",
+    
+
+
+
+
+
+    
+    "snippet": "harbor project deletedelete project by name or idharbor project delete [flags]Options  -h, --help   help for deleteOptions inherited from parent commands      --config string          config file (...",
+    "content": "harbor project deletedelete project by name or idharbor project delete [flags]Options  -h, --help   help for deleteOptions inherited from parent commands      --config string          config file (default is $HOME/.harbor/config.yaml) (default \"/home/user/.harbor/config.yaml\")  -o, --output-format string   Output format. One of: json|yaml  -v, --verbose                verbose outputSEE ALSO  harbor project\t - Manage projects and assign resources to them"
+  },
+  
+  {
+    "title": "harbor project create",
+    "url": "/harbor/project/create",
+    "categories": "harbor, project, create",
+    "tags": "harbor, project, create",
+    "date": "2024-06-03 22:01:02 +0530",
+    
+
+
+
+
+
+    
+    "snippet": "harbor project createcreate projectharbor project create [flags]Options  -h, --help                   help for create      --name string            Name of the project      --proxy-cache           ...",
+    "content": "harbor project createcreate projectharbor project create [flags]Options  -h, --help                   help for create      --name string            Name of the project      --proxy-cache            Whether the project is a proxy cache project      --public                 Project is public or private (default true)      --registry-id string     ID of referenced registry when creating the proxy cache project      --storage-limit string   Storage quota of the project (default \"-1\")Options inherited from parent commands      --config string          config file (default is $HOME/.harbor/config.yaml) (default \"/home/user/.harbor/config.yaml\")  -o, --output-format string   Output format. One of: json|yaml  -v, --verbose                verbose outputSEE ALSO  harbor project\t - Manage projects and assign resources to them"
+  },
+  
+  {
+    "title": "harbor project",
+    "url": "/harbor/project",
+    "categories": "harbor, project",
+    "tags": "harbor, project",
+    "date": "2024-06-03 22:01:02 +0530",
+    
+
+
+
+
+
+    
+    "snippet": "harbor projectManage projects and assign resources to themSynopsisManage projects in HarborExamples  harbor project listOptions  -h, --help   help for projectOptions inherited from parent commands ...",
+    "content": "harbor projectManage projects and assign resources to themSynopsisManage projects in HarborExamples  harbor project listOptions  -h, --help   help for projectOptions inherited from parent commands      --config string          config file (default is $HOME/.harbor/config.yaml) (default \"/home/user/.harbor/config.yaml\")  -o, --output-format string   Output format. One of: json|yaml  -v, --verbose                verbose outputSEE ALSO  harbor\t - Official Harbor CLI  harbor project create\t - create project  harbor project delete\t - delete project by name or id  harbor project list\t - list project  harbor project logs\t - get project logs  harbor project view\t - get project by name or id"
+  },
+  
+  {
+    "title": "harbor login",
+    "url": "/harbor/login",
+    "categories": "harbor, login",
+    "tags": "harbor, login",
+    "date": "2024-06-03 22:01:02 +0530",
+    
+
+
+
+
+
+    
+    "snippet": "harbor loginLog in to Harbor registrySynopsisAuthenticate with Harbor Registry.harbor login [server] [flags]Options  -h, --help              help for login      --name string       name for the set...",
+    "content": "harbor loginLog in to Harbor registrySynopsisAuthenticate with Harbor Registry.harbor login [server] [flags]Options  -h, --help              help for login      --name string       name for the set of credentials  -p, --password string   Password  -u, --username string   UsernameOptions inherited from parent commands      --config string          config file (default is $HOME/.harbor/config.yaml) (default \"/home/user/.harbor/config.yaml\")  -o, --output-format string   Output format. One of: json|yaml  -v, --verbose                verbose outputSEE ALSO  harbor\t - Official Harbor CLI"
+  },
+  
+  {
+    "title": "harbor artifact tags list",
+    "url": "/harbor/artifact/tags/list",
+    "categories": "harbor, artifact, tags, list",
+    "tags": "harbor, artifact, tags, list",
+    "date": "2024-06-03 22:01:02 +0530",
+    
+
+
+
+
+
+    
+    "snippet": "harbor artifact tags listList tags of an artifactharbor artifact tags list [flags]Examplesharbor artifact tags list &lt;project&gt;/&lt;repository&gt;/&lt;reference&gt;Options  -h, --help   help fo...",
+    "content": "harbor artifact tags listList tags of an artifactharbor artifact tags list [flags]Examplesharbor artifact tags list &lt;project&gt;/&lt;repository&gt;/&lt;reference&gt;Options  -h, --help   help for listOptions inherited from parent commands      --config string          config file (default is $HOME/.harbor/config.yaml) (default \"/home/user/.harbor/config.yaml\")  -o, --output-format string   Output format. One of: json|yaml  -v, --verbose                verbose outputSEE ALSO  harbor artifact tags\t - Manage tags of an artifact"
+  },
+  
+  {
+    "title": "harbor artifact tags delete",
+    "url": "/harbor/artifact/tags/delete",
+    "categories": "harbor, artifact, tags, delete",
+    "tags": "harbor, artifact, tags, delete",
+    "date": "2024-06-03 22:01:02 +0530",
+    
+
+
+
+
+
+    
+    "snippet": "harbor artifact tags deleteDelete a tag of an artifactharbor artifact tags delete [flags]Examplesharbor artifact tags delete &lt;project&gt;/&lt;repository&gt;/&lt;reference&gt; &lt;tag&gt;Options ...",
+    "content": "harbor artifact tags deleteDelete a tag of an artifactharbor artifact tags delete [flags]Examplesharbor artifact tags delete &lt;project&gt;/&lt;repository&gt;/&lt;reference&gt; &lt;tag&gt;Options  -h, --help   help for deleteOptions inherited from parent commands      --config string          config file (default is $HOME/.harbor/config.yaml) (default \"/home/user/.harbor/config.yaml\")  -o, --output-format string   Output format. One of: json|yaml  -v, --verbose                verbose outputSEE ALSO  harbor artifact tags\t - Manage tags of an artifact"
+  },
+  
+  {
+    "title": "harbor artifact tags create",
+    "url": "/harbor/artifact/tags/create",
+    "categories": "harbor, artifact, tags, create",
+    "tags": "harbor, artifact, tags, create",
+    "date": "2024-06-03 22:01:02 +0530",
+    
+
+
+
+
+
+    
+    "snippet": "harbor artifact tags createCreate a tag of an artifactharbor artifact tags create [flags]Examplesharbor artifact tags create &lt;project&gt;/&lt;repository&gt;/&lt;reference&gt; &lt;tag&gt;Options ...",
+    "content": "harbor artifact tags createCreate a tag of an artifactharbor artifact tags create [flags]Examplesharbor artifact tags create &lt;project&gt;/&lt;repository&gt;/&lt;reference&gt; &lt;tag&gt;Options  -h, --help   help for createOptions inherited from parent commands      --config string          config file (default is $HOME/.harbor/config.yaml) (default \"/home/user/.harbor/config.yaml\")  -o, --output-format string   Output format. One of: json|yaml  -v, --verbose                verbose outputSEE ALSO  harbor artifact tags\t - Manage tags of an artifact"
+  },
+  
+  {
+    "title": "harbor artifact tags",
+    "url": "/harbor/artifact/tags",
+    "categories": "harbor, artifact, tags",
+    "tags": "harbor, artifact, tags",
+    "date": "2024-06-03 22:01:02 +0530",
+    
+
+
+
+
+
+    
+    "snippet": "harbor artifact tagsManage tags of an artifactExamples harbor artifact tags list &lt;project&gt;/&lt;repository&gt;/&lt;reference&gt;Options  -h, --help   help for tagsOptions inherited from parent...",
+    "content": "harbor artifact tagsManage tags of an artifactExamples harbor artifact tags list &lt;project&gt;/&lt;repository&gt;/&lt;reference&gt;Options  -h, --help   help for tagsOptions inherited from parent commands      --config string          config file (default is $HOME/.harbor/config.yaml) (default \"/home/user/.harbor/config.yaml\")  -o, --output-format string   Output format. One of: json|yaml  -v, --verbose                verbose outputSEE ALSO  harbor artifact\t - Manage artifacts  harbor artifact tags create\t - Create a tag of an artifact  harbor artifact tags delete\t - Delete a tag of an artifact  harbor artifact tags list\t - List tags of an artifact"
+  },
+  
+  {
+    "title": "harbor artifact scan stop",
+    "url": "/harbor/artifact/scan/stop",
+    "categories": "harbor, artifact, scan, stop",
+    "tags": "harbor, artifact, scan, stop",
+    "date": "2024-06-03 22:01:02 +0530",
+    
+
+
+
+
+
+    
+    "snippet": "harbor artifact scan stopStop a scan of an artifactSynopsisStop a scan of an artifact in Harbor Repositoryharbor artifact scan stop [flags]Examplesharbor artifact scan stop &lt;project&gt;/&lt;repo...",
+    "content": "harbor artifact scan stopStop a scan of an artifactSynopsisStop a scan of an artifact in Harbor Repositoryharbor artifact scan stop [flags]Examplesharbor artifact scan stop &lt;project&gt;/&lt;repository&gt;/&lt;reference&gt;Options  -h, --help   help for stopOptions inherited from parent commands      --config string          config file (default is $HOME/.harbor/config.yaml) (default \"/home/user/.harbor/config.yaml\")  -o, --output-format string   Output format. One of: json|yaml  -v, --verbose                verbose outputSEE ALSO  harbor artifact scan\t - Scan an artifact"
+  },
+  
+  {
+    "title": "harbor artifact scan start",
+    "url": "/harbor/artifact/scan/start",
+    "categories": "harbor, artifact, scan, start",
+    "tags": "harbor, artifact, scan, start",
+    "date": "2024-06-03 22:01:02 +0530",
+    
+
+
+
+
+
+    
+    "snippet": "harbor artifact scan startStart a scan of an artifactSynopsisStart a scan of an artifact in Harbor Repositoryharbor artifact scan start [flags]Examplesharbor artifact scan start &lt;project&gt;/&lt...",
+    "content": "harbor artifact scan startStart a scan of an artifactSynopsisStart a scan of an artifact in Harbor Repositoryharbor artifact scan start [flags]Examplesharbor artifact scan start &lt;project&gt;/&lt;repository&gt;/&lt;reference&gt;Options  -h, --help   help for startOptions inherited from parent commands      --config string          config file (default is $HOME/.harbor/config.yaml) (default \"/home/user/.harbor/config.yaml\")  -o, --output-format string   Output format. One of: json|yaml  -v, --verbose                verbose outputSEE ALSO  harbor artifact scan\t - Scan an artifact"
+  },
+  
+  {
+    "title": "harbor artifact scan",
+    "url": "/harbor/artifact/scan",
+    "categories": "harbor, artifact, scan",
+    "tags": "harbor, artifact, scan",
+    "date": "2024-06-03 22:01:02 +0530",
+    
+
+
+
+
+
+    
+    "snippet": "harbor artifact scanScan an artifactSynopsisScan an artifact in Harbor RepositoryExamplesharbor artifact scan start &lt;project&gt;/&lt;repository&gt;/&lt;reference&gt;Options  -h, --help   help fo...",
+    "content": "harbor artifact scanScan an artifactSynopsisScan an artifact in Harbor RepositoryExamplesharbor artifact scan start &lt;project&gt;/&lt;repository&gt;/&lt;reference&gt;Options  -h, --help   help for scanOptions inherited from parent commands      --config string          config file (default is $HOME/.harbor/config.yaml) (default \"/home/user/.harbor/config.yaml\")  -o, --output-format string   Output format. One of: json|yaml  -v, --verbose                verbose outputSEE ALSO  harbor artifact\t - Manage artifacts  harbor artifact scan start\t - Start a scan of an artifact  harbor artifact scan stop\t - Stop a scan of an artifact"
+  },
+  
+  {
+    "title": "harbor artifact list",
+    "url": "/harbor/artifact/list",
+    "categories": "harbor, artifact, list",
+    "tags": "harbor, artifact, list",
+    "date": "2024-06-03 22:01:02 +0530",
+    
+
+
+
+
+
+    
+    "snippet": "harbor artifact listlist artifacts within a repositoryharbor artifact list [flags]Options  -h, --help   help for listOptions inherited from parent commands      --config string          config file...",
+    "content": "harbor artifact listlist artifacts within a repositoryharbor artifact list [flags]Options  -h, --help   help for listOptions inherited from parent commands      --config string          config file (default is $HOME/.harbor/config.yaml) (default \"/home/user/.harbor/config.yaml\")  -o, --output-format string   Output format. One of: json|yaml  -v, --verbose                verbose outputSEE ALSO  harbor artifact\t - Manage artifacts"
+  },
+  
+  {
+    "title": "harbor artifact info",
+    "url": "/harbor/artifact/info",
+    "categories": "harbor, artifact, info",
+    "tags": "harbor, artifact, info",
+    "date": "2024-06-03 22:01:02 +0530",
+    
+
+
+
+
+
+    
+    "snippet": "harbor artifact infoGet info of an artifactSynopsisGet info of an artifactharbor artifact info [flags]Examplesharbor artifact info &lt;project&gt;/&lt;repository&gt;/&lt;reference&gt;Options  -h, -...",
+    "content": "harbor artifact infoGet info of an artifactSynopsisGet info of an artifactharbor artifact info [flags]Examplesharbor artifact info &lt;project&gt;/&lt;repository&gt;/&lt;reference&gt;Options  -h, --help   help for infoOptions inherited from parent commands      --config string          config file (default is $HOME/.harbor/config.yaml) (default \"/home/user/.harbor/config.yaml\")  -o, --output-format string   Output format. One of: json|yaml  -v, --verbose                verbose outputSEE ALSO  harbor artifact\t - Manage artifacts"
+  },
+  
+  {
+    "title": "harbor artifact delete",
+    "url": "/harbor/artifact/delete",
+    "categories": "harbor, artifact, delete",
+    "tags": "harbor, artifact, delete",
+    "date": "2024-06-03 22:01:02 +0530",
+    
+
+
+
+
+
+    
+    "snippet": "harbor artifact deletedelete an artifactharbor artifact delete [flags]Options  -h, --help   help for deleteOptions inherited from parent commands      --config string          config file (default ...",
+    "content": "harbor artifact deletedelete an artifactharbor artifact delete [flags]Options  -h, --help   help for deleteOptions inherited from parent commands      --config string          config file (default is $HOME/.harbor/config.yaml) (default \"/home/user/.harbor/config.yaml\")  -o, --output-format string   Output format. One of: json|yaml  -v, --verbose                verbose outputSEE ALSO  harbor artifact\t - Manage artifacts"
+  },
+  
+  {
+    "title": "harbor artifact",
+    "url": "/harbor/artifact",
+    "categories": "harbor, artifact",
+    "tags": "harbor, artifact",
+    "date": "2024-06-03 22:01:02 +0530",
+    
+
+
+
+
+
+    
+    "snippet": "harbor artifactManage artifactsSynopsisManage artifacts in Harbor RepositoryExamples  harbor artifact listOptions  -h, --help   help for artifactOptions inherited from parent commands      --config...",
+    "content": "harbor artifactManage artifactsSynopsisManage artifacts in Harbor RepositoryExamples  harbor artifact listOptions  -h, --help   help for artifactOptions inherited from parent commands      --config string          config file (default is $HOME/.harbor/config.yaml) (default \"/home/user/.harbor/config.yaml\")  -o, --output-format string   Output format. One of: json|yaml  -v, --verbose                verbose outputSEE ALSO  harbor\t - Official Harbor CLI  harbor artifact delete\t - delete an artifact  harbor artifact info\t - Get info of an artifact  harbor artifact list\t - list artifacts within a repository  harbor artifact scan\t - Scan an artifact  harbor artifact tags\t - Manage tags of an artifact"
+  },
+  
+  {
+    "title": "harbor",
+    "url": "/harbor",
+    "categories": "harbor",
+    "tags": "harbor",
+    "date": "2024-06-03 22:01:02 +0530",
+    
+
+
+
+
+
+    
+    "snippet": "harborOfficial Harbor CLISynopsisOfficial Harbor CLIExamples// Base command:harbor// Display help about the command:harbor helpOptions      --config string          config file (default is $HOME/.h...",
+    "content": "harborOfficial Harbor CLISynopsisOfficial Harbor CLIExamples// Base command:harbor// Display help about the command:harbor helpOptions      --config string          config file (default is $HOME/.harbor/config.yaml) (default \"/home/user/.harbor/config.yaml\")  -h, --help                   help for harbor  -o, --output-format string   Output format. One of: json|yaml  -v, --verbose                verbose outputSEE ALSO  harbor artifact\t - Manage artifacts  harbor login\t - Log in to Harbor registry  harbor project\t - Manage projects and assign resources to them  harbor registry\t - Manage registries  harbor repo\t - Manage repositories  harbor user\t - Manage users  harbor version\t - Version of Harbor CLI"
+  }
+  
+]
+

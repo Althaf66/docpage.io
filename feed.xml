@@ -1,0 +1,267 @@
+
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>http://localhost:4000/</id>
+  <title>Chirpy</title>
+  <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
+  <updated>2024-06-04T12:05:17+05:30</updated>
+  <author>
+    <name>your_full_name</name>
+    <uri>http://localhost:4000/</uri>
+  </author>
+  <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml"/>
+  <link rel="alternate" type="text/html" hreflang="en"
+    href="http://localhost:4000/"/>
+  <generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator>
+  <rights> © 2024 your_full_name </rights>
+  <icon>/assets/img/favicons/favicon.ico</icon>
+  <logo>/assets/img/favicons/favicon-96x96.png</logo>
+
+
+  
+  <entry>
+    <title>harbor version</title>
+    <link href="http://localhost:4000/harbor/version" rel="alternate" type="text/html" title="harbor version" />
+    <published>2024-06-03T22:01:02+05:30</published>
+  
+    <updated>2024-06-03T22:01:02+05:30</updated>
+  
+    <id>http://localhost:4000/harbor/version</id>
+    <content src="http://localhost:4000/harbor/version" />
+    <author>
+      <name>your_full_name</name>
+    </author>
+
+  
+    
+    <category term="harbor" />
+    
+    <category term="version" />
+    
+  
+
+  <summary>harbor version
+
+Version of Harbor CLI
+
+Synopsis
+
+Get Harbor CLI version, git commit, go version, build time, release channel, os/arch, etc.
+
+harbor version [flags]
+
+
+Examples
+
+  harbor version
+
+
+Options
+
+  -h, --help   help for version
+
+
+Options inherited from parent commands
+
+      --config string          config file (default is $HOME/.harbor/config.yaml) (default &amp;quot;/home/user/.harbor/config.y...</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>harbor user list</title>
+    <link href="http://localhost:4000/harbor/user/list" rel="alternate" type="text/html" title="harbor user list" />
+    <published>2024-06-03T22:01:02+05:30</published>
+  
+    <updated>2024-06-03T22:01:02+05:30</updated>
+  
+    <id>http://localhost:4000/harbor/user/list</id>
+    <content src="http://localhost:4000/harbor/user/list" />
+    <author>
+      <name>your_full_name</name>
+    </author>
+
+  
+    
+    <category term="harbor" />
+    
+    <category term="user" />
+    
+    <category term="list" />
+    
+  
+
+  <summary>harbor user list
+
+list users
+
+harbor user list [flags]
+
+
+Options
+
+  -h, --help   help for list
+
+
+Options inherited from parent commands
+
+      --config string          config file (default is $HOME/.harbor/config.yaml) (default &amp;quot;/home/user/.harbor/config.yaml&amp;quot;)
+  -o, --output-format string   Output format. One of: json|yaml
+  -v, --verbose                verbose output
+
+
+SEE ALSO
+
+
+  harbor use...</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>harbor user elevate</title>
+    <link href="http://localhost:4000/harbor/user/elevate" rel="alternate" type="text/html" title="harbor user elevate" />
+    <published>2024-06-03T22:01:02+05:30</published>
+  
+    <updated>2024-06-03T22:01:02+05:30</updated>
+  
+    <id>http://localhost:4000/harbor/user/elevate</id>
+    <content src="http://localhost:4000/harbor/user/elevate" />
+    <author>
+      <name>your_full_name</name>
+    </author>
+
+  
+    
+    <category term="harbor" />
+    
+    <category term="user" />
+    
+    <category term="elevate" />
+    
+  
+
+  <summary>harbor user elevate
+
+elevate user
+
+Synopsis
+
+elevate user to admin role
+
+harbor user elevate [flags]
+
+
+Options
+
+  -h, --help   help for elevate
+
+
+Options inherited from parent commands
+
+      --config string          config file (default is $HOME/.harbor/config.yaml) (default &amp;quot;/home/user/.harbor/config.yaml&amp;quot;)
+  -o, --output-format string   Output format. One of: json|yaml
+  -v, --verbose       ...</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>harbor user delete</title>
+    <link href="http://localhost:4000/harbor/user/delete" rel="alternate" type="text/html" title="harbor user delete" />
+    <published>2024-06-03T22:01:02+05:30</published>
+  
+    <updated>2024-06-03T22:01:02+05:30</updated>
+  
+    <id>http://localhost:4000/harbor/user/delete</id>
+    <content src="http://localhost:4000/harbor/user/delete" />
+    <author>
+      <name>your_full_name</name>
+    </author>
+
+  
+    
+    <category term="harbor" />
+    
+    <category term="user" />
+    
+    <category term="delete" />
+    
+  
+
+  <summary>harbor user delete
+
+delete user
+
+harbor user delete [flags]
+
+
+Options
+
+  -h, --help   help for delete
+
+
+Options inherited from parent commands
+
+      --config string          config file (default is $HOME/.harbor/config.yaml) (default &amp;quot;/home/user/.harbor/config.yaml&amp;quot;)
+  -o, --output-format string   Output format. One of: json|yaml
+  -v, --verbose                verbose output
+
+
+SEE ALSO
+
+
+  har...</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>harbor user create</title>
+    <link href="http://localhost:4000/harbor/user/create" rel="alternate" type="text/html" title="harbor user create" />
+    <published>2024-06-03T22:01:02+05:30</published>
+  
+    <updated>2024-06-03T22:01:02+05:30</updated>
+  
+    <id>http://localhost:4000/harbor/user/create</id>
+    <content src="http://localhost:4000/harbor/user/create" />
+    <author>
+      <name>your_full_name</name>
+    </author>
+
+  
+    
+    <category term="harbor" />
+    
+    <category term="user" />
+    
+    <category term="create" />
+    
+  
+
+  <summary>harbor user create
+
+create user
+
+harbor user create [flags]
+
+
+Options
+
+      --comment string    Comment
+      --email string      Email
+  -h, --help              help for create
+      --password string   Password
+      --realname string   Realname
+      --username string   Username
+
+
+Options inherited from parent commands
+
+      --config string          config file (default is $HOME/.harbor/co...</summary>
+
+  </entry>
+
+</feed>
+
+
